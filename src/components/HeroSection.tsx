@@ -20,14 +20,14 @@ const HeroSection = () => (
       </FadeIn>
       <FadeIn delay={0.2}>
         <p className="mt-4 text-xl sm:text-2xl font-display font-medium text-gradient">
-          Data Analytics & Machine Learning
+          Aspiring Data Analyst | Machine Learning & Analytics
         </p>
       </FadeIn>
       <FadeIn delay={0.3}>
         <p className="mt-6 max-w-2xl mx-auto text-muted-foreground leading-relaxed">
-          Computer Science graduate passionate about data analytics and machine learning.
-          I build structured, data-driven solutions that transform raw data into meaningful
-          insights and predictive models.
+          Computer Science graduate passionate about data analytics and machine
+          learning. I build structured, data-driven solutions that transform raw
+          data into meaningful insights and predictive models.
         </p>
       </FadeIn>
       <FadeIn delay={0.4}>
