@@ -12,13 +12,20 @@ const CertificationsSection = () => (
         <FadeIn delay={0.1}>
           <div className="card-surface rounded-xl border border-border p-5 h-full">
             <div className="flex items-start gap-3">
-              <BadgeCheck size={20} className="text-primary mt-0.5 flex-shrink-0" />
+              <BadgeCheck
+                size={20}
+                className="text-primary mt-0.5 flex-shrink-0"
+              />
               <div>
                 <h3 className="font-display font-semibold text-foreground text-sm">
                   Post Graduate Program in Data Science
                 </h3>
-                <p className="text-muted-foreground text-xs mt-1">Imarticus Learning · 6-month program</p>
-                <p className="text-muted-foreground text-xs">Completed February 2026</p>
+                <p className="text-muted-foreground text-xs mt-1">
+                  Imarticus Learning · 6-month program
+                </p>
+                <p className="text-muted-foreground text-xs">
+                  Completed:February 2026
+                </p>
               </div>
             </div>
           </div>
@@ -26,12 +33,17 @@ const CertificationsSection = () => (
         <FadeIn delay={0.2}>
           <div className="card-surface rounded-xl border border-border p-5 h-full">
             <div className="flex items-start gap-3">
-              <BadgeCheck size={20} className="text-primary mt-0.5 flex-shrink-0" />
+              <BadgeCheck
+                size={20}
+                className="text-primary mt-0.5 flex-shrink-0"
+              />
               <div>
                 <h3 className="font-display font-semibold text-foreground text-sm">
                   Microsoft Power BI Data Analyst Professional Certificate
                 </h3>
-                <p className="text-muted-foreground text-xs mt-1">Microsoft · Coursera, 2024</p>
+                <p className="text-muted-foreground text-xs mt-1">
+                  Microsoft · Coursera, 2024
+                </p>
               </div>
             </div>
           </div>
@@ -50,7 +62,10 @@ const EducationSection = () => (
       <FadeIn delay={0.1}>
         <div className="max-w-3xl mx-auto card-surface rounded-xl border border-border p-6">
           <div className="flex items-start gap-3">
-            <GraduationCap size={22} className="text-primary mt-0.5 flex-shrink-0" />
+            <GraduationCap
+              size={22}
+              className="text-primary mt-0.5 flex-shrink-0"
+            />
             <div>
               <h3 className="font-display font-semibold text-foreground">
                 B.E. in Computer Science & Engineering
