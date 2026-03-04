@@ -6,17 +6,40 @@ const skillGroups = [
   {
     title: "Data Analytics",
     icon: Database,
-    skills: ["SQL", "Power BI", "Excel", "Data Visualization", "Dashboard Development", "DAX"],
+    skills: [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Data Visualization",
+      "Dashboard Development",
+      "DAX",
+      "Data Cleaning",
+      "Data Modeling",
+    ],
   },
   {
     title: "Machine Learning",
     icon: Brain,
-    skills: ["Python", "Scikit-learn", "LSTM", "ARIMA", "XGBoost", "ANN"],
+    skills: [
+      "Scikit-learn",
+      "Supervised Learning",
+      "Ensemble Methods",
+      "Deep Learning",
+      "Time Series Forecasting",
+    ],
   },
   {
     title: "Tools & Technologies",
     icon: Wrench,
-    skills: ["MySQL", "Flask", "Git & GitHub", "Google Colab", "ESP32 (IoT)"],
+    skills: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "MySQL",
+      "Flask",
+      "Git & GitHub",
+      "Google Colab",
+    ],
   },
 ];
 
@@ -24,7 +47,10 @@ const SkillsSection = () => (
   <section id="skills" className="section-padding bg-secondary/30">
     <div className="section-container">
       <FadeIn>
-        <SectionHeading title="Skills" subtitle="Technologies and tools I work with" />
+        <SectionHeading
+          title="Skills"
+          subtitle="Technologies and tools I work with"
+        />
       </FadeIn>
       <div className="grid gap-6 md:grid-cols-3">
         {skillGroups.map((group, i) => (
@@ -34,7 +60,9 @@ const SkillsSection = () => (
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
                   <group.icon size={20} className="text-primary" />
                 </div>
-                <h3 className="font-display font-semibold text-foreground">{group.title}</h3>
+                <h3 className="font-display font-semibold text-foreground">
+                  {group.title}
+                </h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 {group.skills.map((s) => (
